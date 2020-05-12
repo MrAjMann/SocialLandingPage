@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c3348c3b-90f1-409e-953f-90902289fd81/deploy-status)](https://app.netlify.com/sites/sociallanding/deploys)
 Social Landing Page
 
 # API integrations
