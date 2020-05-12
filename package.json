@@ -1,0 +1,24 @@
+{
+  "name": "sociallandingpage",
+  "version": "1.0.0",
+  "description": "Social Landing Page",
+  "main": "app.js",
+  "scripts": {
+    "start": "node tweet.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAjMann/SocialLandingPage.git"
+  },
+  "author": "Anthony Mann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrAjMann/SocialLandingPage/issues"
+  },
+  "homepage": "https://github.com/MrAjMann/SocialLandingPage#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twit": "^2.2.11"
+  }
+}
