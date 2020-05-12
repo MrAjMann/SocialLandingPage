@@ -39,10 +39,30 @@ form p input,
 textarea {
   display: flex;
   margin-bottom: 0.5em;
+  width: 300px;
+  padding: 0.2em;
   align-items: center;
-  text-align: center;
+  text-align: left;
+  border: none;
   justify-content: center;
-  // padding: 0;
+  box-shadow: 0 0 15px 0 #ccc;
+  border-radius: 15px;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 0.5em;
+  box-shadow: 0 0 15px 0 #ccc;
+  border: none;
+  border-radius: 15px;
+  padding: 0.5em;
+  width: 150px;
+  &:hover {
+    background-color: #ffdfc5;
+    width: 175px;
+    padding: 0.7em;
+    box-shadow: 0 0 15px 0 #ccc;
+  }
 }
 
 @media (max-width: 768px) {
