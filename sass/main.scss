@@ -34,11 +34,17 @@ h2 {
   font-weight: 700;
   opacity: 0.8;
 }
-form {
-  label {
-    color: black;
-  }
+
+form p input,
+textarea {
+  display: flex;
+  margin-bottom: 0.5em;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  // padding: 0;
 }
+
 @media (max-width: 768px) {
   #time {
     font-size: 6rem;

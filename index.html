@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
     <div class="twitterPanel">
@@ -25,14 +25,16 @@
       Start Dynamic Landing Page
     </h2>
 
-    <form name="contactForm" action="POST" data-netlify="true">
-      <label for="name">Your Name</label>
-      <input type="text" name="name" id="name" />
-      <label for="phone">Your Phone</label>
-      <input type="tel" name="phone" id="phone" />
-      <label for="email">Your Email</label>
-      <input type="email" name="email" id="email" />
-      <button class="btn" type="submit" name="button"></button>
+    <form name="contact" method="POST" data-netlify="true" data-netlify="true">
+      <p>
+        <label>Email: <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
     </form>
     <script src="tweet.js"></script>
     <script src="ui.js"></script>
