@@ -13,7 +13,11 @@ body {
   height: 100vh;
   color: black;
 }
-
+#innerTwitterContainer {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+}
 #time {
   font-size: 8rem;
 }
